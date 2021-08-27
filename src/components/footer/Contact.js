@@ -15,6 +15,7 @@ export default class Contact extends React.Component {
                         
                         <a href='https://www.instagram.com/vinxcin/'><li><p>Instagram</p></li></a>
                     </ul>
+                    
             </div>
         );
     }

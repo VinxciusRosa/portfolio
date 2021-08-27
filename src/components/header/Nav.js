@@ -13,7 +13,7 @@ export default class Nav extends React.Component {
                     <li><AnchorLink href='#sobre'>Sobre mim</AnchorLink></li>
                     <li><AnchorLink href='#projetos'>Projetos</AnchorLink></li>
                     <li><AnchorLink href='#conhecimentos'>Conhecimentos</AnchorLink></li>
-                    <li><AnchorLink href='#hobbies'>Hobbies</AnchorLink></li>
+                    <li><AnchorLink href='#afins'>Afins</AnchorLink></li>
                 </ul>
             </div>
         );

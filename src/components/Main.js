@@ -3,7 +3,7 @@ import Home from './main/Home';
 import Sobre from './main/Sobre';
 import Projetos from './main/Projetos';
 import Conhecimentos from './main/Conhecimentos';
-import Hobbies from './main/Hobbies';
+import Afins from './main/Afins';
 
 export default class Main extends React.Component {
 
@@ -14,7 +14,7 @@ export default class Main extends React.Component {
                 <Sobre/>
                 <Projetos/>
                 <Conhecimentos/>
-                <Hobbies/>
+                <Afins/>
             </div>
         )
     }
