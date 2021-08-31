@@ -342,10 +342,6 @@ a {
     background:#4e2361;
 }   
 
-
-
-
-
 #afins{
     display: flex;
     flex-direction: column;
@@ -359,6 +355,7 @@ a {
     padding-bottom: 1em;
     color:#8608bd;
 }
+
 
 .publicacoes, .title-publi, .title-publi h1, .title-publi p, .cards-publi{
     background: rgb(23, 21, 26);
@@ -438,7 +435,7 @@ a {
 .title-dc h1{
     display: flex;
     align-items: center;
-    font-size: 25px;
+    font-size: 28px;
     animation: clickCursor 1050ms infinite normal;
     border-right: 1px solid white;
     white-space: nowrap;
@@ -591,8 +588,11 @@ a {
         margin: 0 4px ;
         
     }
-    .divulgacao-cientifica{flex-direction: column;justify-content: center}
+    .divulgacao-cientifica, .cards-ciencia, .cards-ciencia img{display: none;}
     
+    .publicacoes, .title-publi, .title-publi h1, .title-publi p, .cards-publi{
+        background-color: rgb(24, 24, 24);
+    }
 }
 
 /*Estilo para SmartPhones Médios*/
@@ -723,7 +723,10 @@ a {
     #contact a, li {
         margin: 0 8px;
     }
-    .divulgacao-cientifica{flex-direction: column;justify-content: center}
+    .divulgacao-cientifica, .cards-ciencia, .cards-ciencia img{display: none;}
+    .publicacoes, .title-publi, .title-publi h1, .title-publi p, .cards-publi{
+        background-color: rgb(24, 24, 24);
+    }
 }
 
 
@@ -778,6 +781,9 @@ a {
     #home{
         margin: 0vh 0 25vh 0;
     }
+    .publicacoes, .title-publi, .title-publi h1, .title-publi p, .cards-publi, .title-afins, .title-afins svg{
+        background: rgb(23, 21, 26);
+    }
 }
 
 /*Estilo para notebooks*/
@@ -813,6 +819,9 @@ a {
     #logo{
         font-size: 25px;
     }
+    .publicacoes, .title-publi, .title-publi h1, .title-publi p, .cards-publi, .title-afins, .title-afins svg{
+        background: rgb(23, 21, 26);
+    }
 
 }
 
@@ -839,3 +848,13 @@ a {
     height: auto;
 } */
 
+    hr {
+        
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border: 0;
+        border-top: 1px solid rgba(73, 67, 83, 0.418);
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible;
+    }
