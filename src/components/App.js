@@ -12,11 +12,6 @@ export default class App extends React.Component {
                 <Main />
                 <Footer />
             </div>
-          
-          
-
-
-
         );
     }
 }

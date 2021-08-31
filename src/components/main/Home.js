@@ -5,6 +5,7 @@ export default class Home extends React.Component {
     render() {
         return (
             <div id='home'>
+                
                 <div className='perfil'>
                     <img src='./img/image-perfil.jpeg'/>
                     <h2>Olá! =) </h2>

@@ -357,29 +357,7 @@ a {
 .title-afins {
     font-size: 1.5rem !important;
     padding-bottom: 1em;
-    /* animation: clickCursor 900ms infinite normal;
-    border-right: 1px solid white;
-    white-space: nowrap;
-    overflow: hidden;
- */
-}
-
-.eventos{
-    height:50vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-.title-eventos h1{
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-    animation: clickCursor 1050ms infinite normal;
-    border-right: 1px solid white;
-    white-space: nowrap;
-    overflow: hidden;
+    color:#8608bd;
 }
 
 .publicacoes, .title-publi, .title-publi h1, .title-publi p, .cards-publi{
@@ -449,32 +427,45 @@ a {
     
 }
 
-
-
-
-
-
-
-
-
-
-
 .divulgacao-cientifica{
-    height:50vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin: 20vh 0 30vh;
 }
 .title-dc h1{
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     animation: clickCursor 1050ms infinite normal;
     border-right: 1px solid white;
     white-space: nowrap;
     overflow: hidden;
+}
+.cards-ciencia{
+    max-width:50%;
+    max-height:50%;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 4vh 0 0;
+    display: list-item;
+    
+}
+::marker{
+    font-size: 0.0px;
+}
+
+
+.cards-ciencia img{
+    max-width:100%;
+    max-height:50%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
 }
 
 
@@ -483,7 +474,7 @@ a {
 
 /*Estilo para SmartPhones*/
 @media screen and (max-width: 480px) {
-    .header {
+    #header {
         display: flex;
         flex-direction: column;
     }
@@ -594,18 +585,19 @@ a {
         margin: 0;
     }
     #footer h1{
-        font-size:25px;
+        font-size:70%;
     }
     #contact a, li {
         margin: 0 4px ;
         
     }
-   
+    .divulgacao-cientifica{flex-direction: column;justify-content: center}
+    
 }
 
 /*Estilo para SmartPhones Médios*/
 @media screen and (min-width: 481px) and (max-width:768px) {
-    .header {
+    #header {
         display: flex;
         flex-direction: column;
     }
@@ -668,7 +660,7 @@ a {
         padding: 10px 0px;
     }
     #footer h1{
-        font-size:90%;
+        font-size:80%;
     }
 
     #home{
@@ -731,7 +723,7 @@ a {
     #contact a, li {
         margin: 0 8px;
     }
-  
+    .divulgacao-cientifica{flex-direction: column;justify-content: center}
 }
 
 
@@ -750,7 +742,7 @@ a {
         display: inline-block;
     }
 
-    .header .nav,
+    #header .nav,
     #logo,
     .nav-menu a {
         padding: 10px 15px;
@@ -763,7 +755,7 @@ a {
     }
 
     /*header*/
-    .header .nav,
+    #header .nav,
     #logo,
     .nav-menu a {
         background: rgb(20, 20, 20);
@@ -810,7 +802,7 @@ a {
     }
 
     /*header*/
-    .header .nav,
+    #header .nav,
     #logo,
     .nav-menu a {
         background: rgb(20, 20, 20);
@@ -823,3 +815,27 @@ a {
     }
 
 }
+
+#scrollUp {
+    outline: 0;
+    background: no-repeat scroll 0 0 transparent;
+    bottom: 20px;
+    width: 38px;
+    height: 38px;
+    right: 20px;
+    position: fixed;
+    background-image: url(https://www.efita.ita.br/wp-content/plugins/float-to-top-button/images/arrow001.png);
+    right: 20px;
+    bottom: 20px;
+    opacity: 0.35;
+    display: block;
+}
+
+
+/* .container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+} */
+
