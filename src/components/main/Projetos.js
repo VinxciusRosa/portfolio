@@ -17,8 +17,8 @@ export default class Projetos extends React.Component {
                         
                         <span>Devido à minha pesquisa de iniciação científica,
                             tenho realizado várias apresentações (palestras e webinars) sobre tópicos de minha pesquisa.
-                            Assim, sempre que termino de elaborar meus slides para minhas futuras apresentações.
-                            Eu envio os respectivos arquivos por e-mail para meu orientador, de modo que ele possa corrigi-los e enviá-los novamente para mim.
+                            Assim, sempre que termino de elaborar meus slides para minhas futuras apresentações,
+                            eu envio os respectivos arquivos por e-mail para meu orientador, de modo que ele possa corrigi-los e enviá-los novamente para mim.
                             Sendo assim, desenvolvi o presente algoritmo a fim de automatizar essas tarefas repetitivas.</span>
                             <a href="https://github.com/VinxciusRosa/automatizacao-de-tarefas-python" target="_blank" rel="noopener noreferrer"><button>Saiba Mais</button></a>
                     </section>
@@ -52,7 +52,7 @@ export default class Projetos extends React.Component {
 
                     <section className='card-breve'>
                         <h2>Em breve...</h2>
-                        <span>Em breve será lançado um projeto que utilizará estudos aceca de manipulação, análise e visualização de dados.</span>
+                        <span>Em breve será lançado um projeto que utilizará estudos acerca de manipulação, análise e visualização de dados.</span>
                         {/* <button>Saiba Mais</button> */}
                     </section> 
                     

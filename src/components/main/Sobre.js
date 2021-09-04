@@ -16,7 +16,7 @@ export default class Sobre extends React.Component {
                     <p>Meu nome é Vinicius, tenho 20 anos, moro no Brasil,
                         especificamente no município de Caraguatatuba - SP.
                         Sou divulgador científico, pesquisador com bolsa PIBIFSP, e atualmente estou no último ano da graduação no curso de Tecnologia em Análise e Desenvolvimento de Sistemas
-                        do Instituto Federal de Ciência e Tecnologia de São Paulo.
+                        do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo.
                     </p><br/>
                     
                     <p>

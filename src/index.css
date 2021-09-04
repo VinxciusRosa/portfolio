@@ -226,7 +226,11 @@ a {
     font-size: 1.5rem !important;
     
 }
-
+.card:hover, .card-breve:hover, .card-p1:hover{
+    border: 1px inset;
+    border-image-source: linear-gradient(to left, #712aeb, #c83ad577);
+    border-image-slice: 1;
+}
 .cards, #projetos h1{
     display: -webkit-flex;
     display: flex;
@@ -242,9 +246,7 @@ a {
 .card, .card-breve{ 
     display: flex;
     flex-direction: column;
-    border: 2px inset;
-    border-image-source: linear-gradient(to left, #712aeb, #c83ad577);
-    border-image-slice: 1;
+  
     margin: 32px ;
     align-items: center;
     padding: 1rem 1.5rem;
@@ -254,6 +256,7 @@ a {
     font-size:15px;
     border-radius: 20px;
     justify-content: space-between;
+    
 }
 
 .card button{
