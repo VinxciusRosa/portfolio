@@ -51,6 +51,7 @@ a {
 
 .nav-menu a:hover {
     background: rgb(22, 20, 26);
+    border-bottom:  0.7px solid #391d46;
 }
 /*LOGO DA PÁGINA*/
 #logo {
