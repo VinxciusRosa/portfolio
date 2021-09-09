@@ -25,7 +25,7 @@ export default class Afins extends React.Component {
         return (
             <div id='afins'>
                <h1 className='title-afins'> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150"><path fill="#690394" fill-opacity="0.5" d="M0,96L60,80C120,64,240,32,360,48C480,64,600,128,720,133.3C840,139,960,85,1080,58.7C1200,32,1320,32,1380,32L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
-               afins...</h1>
+               Ciência...</h1>
                 
                 <div className='publicacoes'>
                     <div className='title-publi'>
@@ -65,6 +65,10 @@ export default class Afins extends React.Component {
                             <a href=".\assets\SICLN_2019 - BURACOS NEGROS E DIVULGAÇÃO CIENTÍFICA.pdf" target="_blank" rel="noopener noreferrer"><button>Saiba Mais</button></a>
                         </section>
                     </div>
+                    <a href='./assets/CV_Vinicius-Carvalho-Rosa.pdf' target="_blank" rel="noopener noreferrer" className="myCV">
+                        <img src='https://mariogalvao.com.br/wp-content/uploads/2021/04/lattes-icon.png' width='30' alt='cv acadêmico'/>
+                        CV Lattes
+                    </a>
                 </div>
                 
                 <div className='divulgacao-cientifica'>
