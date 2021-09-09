@@ -352,7 +352,6 @@ a {
 
 #certificados button{
     border-radius: 30px;
-    background:#281530;
     cursor: pointer;
     padding:10px;
     margin: 2em 0;
@@ -361,6 +360,12 @@ a {
     border: none;
     background:#4e2361;
 }   
+#certificados button:hover , .card-p1 button:hover, .card button:hover{
+    background:#22172b;
+}
+.rep-git a:hover {
+    color: #8608bd;
+}
 
 #afins{
     display: flex;
