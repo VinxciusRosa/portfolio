@@ -27,7 +27,7 @@ export default class Conhecimentos extends React.Component {
                         <img src='./img/linux.svg'/>
                     </div>
                     <div id='certificados'>
-                        <a href='https://github.com/VinxciusRosa/certificados' target="_blank" rel="noopener noreferrer"><button>Certificações</button></a>
+                        <a href='https://github.com/VinxciusRosa/certificados' target="_blank" rel="noopener noreferrer"><button>Certificados</button></a>
                     </div> 
                 </div> 
                   
