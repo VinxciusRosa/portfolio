@@ -65,7 +65,7 @@ export default class Afins extends React.Component {
                             <a href=".\assets\SICLN_2019 - BURACOS NEGROS E DIVULGAÇÃO CIENTÍFICA.pdf" target="_blank" rel="noopener noreferrer"><button>Saiba Mais</button></a>
                         </section>
                     </div>
-                    <a href='./assets/CV_Vinicius-Carvalho-Rosa.pdf' target="_blank" rel="noopener noreferrer" className="myCV">
+                    <a href='http://lattes.cnpq.br/9394309062581984' target="_blank" rel="noopener noreferrer" className="myCV">
                         <img src='https://mariogalvao.com.br/wp-content/uploads/2021/04/lattes-icon.png' width='30' alt='cv acadêmico'/>
                         CV Lattes
                     </a>
