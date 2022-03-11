@@ -1,0 +1,59 @@
+@import "./../../styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;600&display=swap');
+/* ---------------------------------------------------
+Home
+----------------------------------------------------- */
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: $color-primary;
+
+    h1{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 60px;
+        line-height: 32px;
+        color: #FFFF;
+    }
+    p{
+        font-family: $secondary-text;
+        font-size: 22px;
+        color: $color-primary-text;
+    }
+    button{
+        width: 15vw;
+        height: 7vh;
+        background: linear-gradient(89.94deg, #6610F2 2.02%, rgba(102, 16, 242, 0) 102.79%);
+        cursor: pointer;
+        font-family: $secondary-text;
+        font-size: 22px;
+        // font-weight: 600;
+        color: $color-primary-text;
+        border: 1px solid #6610F2  ;
+        align-items: center;
+    }
+    button:hover{
+        border-image: linear-gradient(to right,#6610F2, #B710F2) 1;
+    }
+}
+
+
+/*Estilo para SmartPhones*/
+@media screen and (max-width: 480px) {
+    #home{
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        padding-bottom: 20vh;
+        button{width: 65%;}
+        h1{line-height: 10px;}
+        
+        p{
+            line-height: 35px;
+        }
+        img{display: none;}
+    }
+}

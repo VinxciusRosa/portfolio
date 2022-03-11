@@ -1,0 +1,94 @@
+@import "./../../styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+/* ---------------------------------------------------
+HEADER
+----------------------------------------------------- */
+header{
+	position:fixed;
+	width: 100%;
+	
+}
+header .menu-section{ height: 9vh; border-bottom: 0.1px solid rgb(34, 34, 34);background-color:$color-primary-header;}
+header .menu-section nav{ height: 100%; display: flex; align-items: center;justify-content: space-evenly;}
+header .menu-section nav ul{
+	margin-bottom: 0;
+	li a{
+	text-decoration: none;
+	// text-transform: capitalize;
+	font-family: 'IBM Plex Sans', sans-serif;
+
+	color: $color-primary-text;
+
+	font-size: 1.8rem;
+	margin: 0 25px;
+	padding: 25px 0 5px;
+	transition: all .5s linear 0;
+	white-space: nowrap;
+	cursor: pointer;
+	position: relative;
+	
+}
+}
+header .menu-section nav ul li a::before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 3px;
+	background-color: #6610F2;
+	transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+@media (hover: hover) and (pointer: fine) {
+	header .menu-section nav ul li:hover a::before{ left: 0; right: auto; width: 100%; }
+}
+@media (max-width: 540px){
+	header{
+		position: relative;
+	}
+	nav{ display: none!important; }
+	.menu-toggle{ width: 40px; height: 30px; margin: 21px 24px 0 auto; }
+		.menu-toggle .line{
+			background-color: $color-primary-text;
+			height: 5px;
+			width: 100%;
+			margin: 6px auto;
+			border-radius: 20px;
+			transition-duration: 0.7s;
+		}
+	.menu-section{ height: inherit;}
+	.menu-section.on{
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		width: 100vw;
+		height: 100vh;
+
+		background-color: $color-primary;
+
+		z-index: 10;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+		.menu-section.on .menu-toggle{ position: absolute; right: 24px; top: 15px; margin: 0; }
+			.menu-section.on .menu-toggle :first-child{ transform: rotate(45deg) translate(7px, 7px); }
+			.menu-section.on .menu-toggle :not(:first-child):not(:last-child){ opacity: 0; }
+			.menu-section.on .menu-toggle :last-child{ transform: rotate(-45deg) translate(9px, -8px); }
+
+		.menu-section.on nav{ display: flex!important;flex-direction: column;justify-content: center}
+			.menu-section.on nav ul{ text-align: center; display: block; }
+				.menu-section.on nav ul a{
+					transition-duration: 0.5s;
+					color: $color-primary-text;
+					font-size: 3rem;
+					line-height: 4rem;
+					display: block;
+				}
+}
+
+
+

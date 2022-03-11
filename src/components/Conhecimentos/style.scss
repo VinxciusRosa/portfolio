@@ -1,0 +1,79 @@
+@import "./../../styles/variables";
+/* ---------------------------------------------------
+Conhecimentos
+----------------------------------------------------- */
+#conhecimentos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    // justify-content: space-between;
+    height: 85vh;
+    background-color: $color-secondary;
+    h1{
+        width: 60%;
+        color: $color-secondary-text;
+        line-height: normal;
+        span{
+            color: #6610F2;
+        }
+    }
+    .conhecimentos-icons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .cards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            width: 100px;
+            height:100px ;
+            background-color: $color-primary;
+            border-radius: 15px;
+            cursor: pointer;
+            margin: 20px;
+            p{
+            display: none;
+        }
+        }    
+    }
+
+    .cards:hover{
+        .cards-p{display:flex;
+            flex-direction: column;
+        p{
+            display: initial;
+            color: $color-primary-text;
+            font-family: $secondary-text;
+            margin: 40px 0; 
+            // color: #6610F2;
+            font-size: 18px;
+        }
+        img{
+            display: none;
+        }
+    }
+}
+}
+
+
+@media screen and (max-width: 480px) {
+    #conhecimentos{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        h1{width: 100%;text-align: center;}
+
+        .conhecimentos-icons{
+            justify-content:center;
+            .cards{
+                margin: 20px ;
+            }
+        }
+    }
+
+}

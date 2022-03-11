@@ -1,0 +1,91 @@
+@import "./../../styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;600&display=swap');
+
+/* ---------------------------------------------------
+Ciencia
+----------------------------------------------------- */
+#ciencia{
+    margin: 15vh 0 30vh;
+    // height: 160vh;
+    background-color: $color-primary;
+    .title-ciencia{
+        text-align: center;
+        h1{
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 40px;
+            line-height: 0px;
+            color: #FFFF;
+        }
+        p{
+            font-family: $secondary-text;
+        }
+    }
+
+    .card-artigo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        // margin-top: 4vh;
+        justify-content: space-around;
+            .cards{
+                margin-top: 10vh;
+                width: 360px;
+                height: 250px;
+                border: 1px solid ;
+                border: 1px solid #6610F2;
+                
+                background-color: $color-secondary;
+                padding: 40px;
+
+                h1{
+                    padding-bottom: 15px;
+                    color: #ffff;
+                    line-height: 1px;
+                    font-size: 1.7em;
+                    font-weight: bold;
+                    text-align: justify;
+                    font-family: $title-cards;
+                    span{color:#6610F2;}}
+
+                p{font-size: 0.9em;}
+                button{
+                    margin-top: 1vh;
+                    width: 100%;
+                    height: 7vh;
+                    background: linear-gradient(89.94deg, #6610F2 2.02%, rgba(102, 16, 242, 0) 102.79%);
+                    cursor: pointer;
+                    font-family: $secondary-text;
+                    font-size: 22px;
+                    color: $color-primary-text;
+                    border: 1px solid #6610F2;
+                    border-radius:5px ;
+                    // border-image: linear-gradient(to right,#6610F2, #B710F2) 1;
+                    align-items: center;
+                }
+                button:hover{ background: linear-gradient(89.94deg, #6710f267 2.02%, rgba(102, 16, 242, 0) 102.79%);}
+               
+        }
+        .cards:hover{
+            border: 1px solid #6610F2;
+            border-image: linear-gradient(to right,#6610F2, #B710F2) 1;
+            cursor: pointer;
+                }    
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #ciencia{
+        height: auto;
+        margin-bottom: 20vh;
+        .card-artigo{
+            .cards{
+                height: auto;
+                h1{font-size: 1.3em;}
+                p{font-size: 13px;line-height: 20px;}
+            }
+        }
+    }
+
+}

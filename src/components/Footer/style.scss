@@ -1,0 +1,65 @@
+@import "./../../styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;600&display=swap');
+/* ---------------------------------------------------
+FOOTER
+----------------------------------------------------- */
+footer{
+
+	height: 27vh;
+	h1{
+		font-family: 'IBM Plex Sans', sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		font-size: 40px;
+		line-height: 32px;
+		color: #FFFF;
+		padding-bottom:4vh ;
+	
+		span{
+			color: #1ADA50;
+		}
+	}
+	.icons-footer{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+		padding-bottom: 10px;
+		border-bottom:1px solid rgb(53, 53, 53) ;
+		
+		ul{
+			
+			li{padding-right:18px;display: flex;align-items: center;
+				svg{font-size: 30px;cursor: pointer;color: $color-primary-text;}
+				svg:hover{color: #1ADA50;}
+			}
+		}
+	}
+	.madeby{
+		padding-top: 2vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		font-family: $secondary-text;
+		color: $color-primary-text;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	footer{ 
+		.icons-footer{
+			display: flex;
+			flex-direction: column-reverse;
+			.ul-icons{
+				display: flex;
+				flex-direction: row;
+				padding-top: 10px;
+			}
+
+		}
+	.madeby{font-size: 13px;padding-bottom: 2vh;}
+
+}
+}

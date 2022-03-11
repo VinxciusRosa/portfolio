@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#9400d3">
-    <link rel="icon" href="./img/saturno.png" type="image/x-icon">
-    <title>Vinicius Rosa</title>
-    
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+   
+  
+  <link rel="icon" href="./favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=:" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+  
+  <link href="./GoogleTranslate.css" rel="stylesheet">
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'pt-BR',
+            includedLanguages: 'en,es',
+            autoDisplay: false,
+        }, 'google_translate_element');
+        
+        window.comboGoogleTradutor = document.getElementById("google_translate_element").querySelector(".goog-te-combo");
+    }
+  </script>
+  
+  <!-- Link to recaptcha -->
+  <!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcyexgeAAAAAID5UFgQkGAGKHdpHWgOpLvqG7EK"></script>
+  <script>
+    grecaptcha.enterprise.ready(function() {
+      grecaptcha.enterprise.execute('6LcyexgeAAAAAID5UFgQkGAGKHdpHWgOpLvqG7EK', {action: 'login'})
+    });
+  </script> -->
 </head>
+
 <body>
-    <div id="root"></div>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="google_translate_element"> </div>
+  <div id="root"></div>
 </body>
+
 </html>

@@ -1,0 +1,96 @@
+@import "./../../styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;600&display=swap');
+
+/* ---------------------------------------------------
+Projetos
+----------------------------------------------------- */
+#projetos{
+    margin-top: 10vh;
+    height: 75vh;
+    background-color: $color-primary;
+    text-align: center;
+
+    h1{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 32px;
+        color: #FFFF;
+    }
+    .card-projeto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        .cards{
+            margin-top: 8vh;
+            width: 20vw;
+            height: auto;
+            border: 1px solid #6610F2;
+            background-color: $color-secondary;
+            padding: 30px;
+            h1{
+                font-family: $title-cards;
+                font-size: 30px;
+                text-align: justify;
+            }
+            p{
+                text-align: justify;
+                color: $color-primary-text;
+            }
+            button{
+                margin:24px 0 0 34px;
+                // margin-left: 22px;
+                width: 70%;
+                height: 6.5vh;
+                background: transparent; 
+                cursor: pointer;
+                font-family: $secondary-text;
+                font-size: 22px;
+                color: #6610F2;
+                border: 1px solid #6610F2  ;
+                align-items: center;
+                border-radius: 4px;
+                display: flex;
+                justify-content: center;
+
+                svg{
+                    
+                    width: 35px;
+                    padding-right: 5px;
+                }
+            }
+            button:hover{
+                background-color: #1b1624;
+            }
+
+             
+        }
+
+        .cards:hover{
+            // background-color: yellow;
+            border-image: linear-gradient(to right,#6610F2, #B710F2) 1;
+            cursor: pointer;
+        }
+        
+        
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    #projetos{
+        height: auto;
+        margin-bottom: 20vh;
+        .card-projeto{
+            .cards{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+}

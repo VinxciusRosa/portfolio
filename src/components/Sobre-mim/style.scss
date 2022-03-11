@@ -1,0 +1,70 @@
+@import "./../../styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;600&display=swap');
+
+/* ---------------------------------------------------
+Sobre mim
+----------------------------------------------------- */
+#sobre-mim{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: $color-secondary!important;
+    .sobre-descricao{
+        padding-left:40px;
+        h1{
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 40px;
+            line-height: 32px;
+            color: #FFFF;
+        }
+        p{
+            font-family: $secondary-text;
+            font-size: 17px;
+            color: $color-primary-text;
+        }
+        button{
+            display: flex;
+            width: 11vw;
+            height: 6.5vh;
+            background: linear-gradient(89.94deg, #6610F2 2.02%, rgba(102, 16, 242, 0) 102.79%);
+            cursor: pointer;
+            font-family: $secondary-text;
+            font-size: 22px;
+            // font-weight: 600;
+            color: $color-primary-text;
+            border: 1px solid #6610F2  ;
+            border-radius: 5px;
+            align-items: center;
+            justify-content: space-evenly;
+            svg{
+                font-size: 30px;
+                font-weight: bolder;
+            }
+        }
+        
+    }
+}
+
+/*Estilo para SmartPhones*/
+@media screen and (max-width: 480px) {
+    #sobre-mim{
+        padding-top: 8vh;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal;
+        img{width: 60%;}
+        .sobre-descricao{
+            padding: 20px 0 0 0 ;
+            // h1{text-align: center;}
+            p{font-size: 15px; }
+            button{width: 60%;text-align: center;align-items: center;}
+        }
+    }
+
+}

@@ -1,0 +1,24 @@
+.google-translate { display: inline-block!important; vertical-align: top!important; padding-top: 15px!important; }
+.goog-logo-link{ display: none!important; }
+.goog-te-gadget{ color: transparent!important; }
+#google_translate_element{ display: none; }
+.goog-te-banner-frame.skiptranslate{ display: none!important; }
+body{ top: 0!important; }
+@media print{ #google_translate_element{ display: none; } }
+.google-translate { display: inline-block!important; vertical-align: top!important; padding-top: 15px!important; }
+#google_translate_element,
+#goog-gt-tt,
+.goog-logo-link,
+.goog-te-banner-frame.skiptranslate,
+.goog-tooltip,
+.goog-tooltip:hover,
+.goog-te-balloon-frame{ display: none!important; }
+.goog-te-gadget{ color: transparent!important; }
+.goog-text-highlight {
+    background-color: transparent!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+body{ top: 0!important; }
+
+@media print{ #google_translate_element{ display: none; } }
