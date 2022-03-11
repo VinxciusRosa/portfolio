@@ -1,7 +1,7 @@
 import "./style.scss";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import Avatar from "./../../assets/img/avatar.png";
-import CV from "./../../assets/img/CV.pdf";
+// import CV from "./../../assets/img/CV.pdf";
 
 
 export function Sobre(){
@@ -15,9 +15,9 @@ export function Sobre(){
 					<br/><br/>
 					Sou graduado no curso de Análise e Desenvolvimento de Sistemas. Durante a graduação, fui bolsista de iniciação científica e bolsista de extensão.
 				</p>
-				<a href={CV} >
+				{/* <a href={CV} >
 					<button><AiOutlineCloudDownload/> Currículo</button>
-				</a>
+				</a> */}
 			</div>
 		</div>
 	);
