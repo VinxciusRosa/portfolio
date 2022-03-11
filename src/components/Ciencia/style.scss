@@ -82,7 +82,9 @@ Ciencia
         .card-artigo{
             .cards{
                 height: auto;
-                h1{font-size: 1.3em;}
+                h1{font-size: 1.3em;
+                    span{font-size:0.9em}
+                }
                 p{font-size: 13px;line-height: 20px;}
             }
         }

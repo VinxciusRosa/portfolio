@@ -20,14 +20,15 @@ export function Header(){
 					<img src={Logo} alt="logo-vinicius" /> 
 					</a>
 					<ul>
-						{/* <li> <a href="#" className="active">Home</a> </li> */}
-						{/* <li> <img src={Logo} alt="logo-vinicius" /> </li> */}
 						<li> <a href="#sobre-mim">Sobre mim</a> </li>
 						<li> <a href="#projetos">Projetos</a> </li>
 						<li> <a href="#conhecimentos">Conhecimentos</a> </li>
 						<li> <a href="#ciencia">Ciência</a> </li>
+						{/* <li><GoogleTranslate/></li> */}
 					</ul>
-					<GoogleTranslate/>
+					
+						<GoogleTranslate/>
+					
 				</nav>
 				
 			</div>

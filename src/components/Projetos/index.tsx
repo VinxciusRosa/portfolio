@@ -10,7 +10,7 @@ export function Projetos(){
 			<div className="card-projeto">
 				<div className="cards">
 					<h1 translate="no">CertiPy </h1>
-					<p>Gerador de Certificado <span>&</span>Envio de e-mail Automático</p>	
+					<p>Gerador de Certificado <span>&</span> Envio de e-mail Automático</p>	
 					<a href="https://github.com/VinxciusRosa/CertiPy/blob/main/README.md" target="_blank" rel="noopener noreferrer">
 						<button><FaGithub/>GitHub</button>
 					</a>
@@ -28,8 +28,8 @@ export function Projetos(){
 
 
 				<div className="cards">
-					<h1>Em breve...</h1>
-					<p>Olá! aguarde até  o  próximo projeto ...</p>
+					<h1>Em breve..</h1>
+					<p>Olá! aguarde até  o  próximo projeto...</p>
 					
 					<a href="" target="_blank" rel="noopener noreferrer">
 						<button><FaGithub/>GitHub</button>

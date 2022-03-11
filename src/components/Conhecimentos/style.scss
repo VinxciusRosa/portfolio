@@ -77,3 +77,18 @@ Conhecimentos
     }
 
 }
+
+
+@media screen and (max-width: 376px) {
+    #conhecimentos{
+
+        .conhecimentos-icons{
+            display: flex;
+            justify-content:space-between;
+            .cards{
+                margin: 20px 0;
+            }
+        }
+    }
+
+}
