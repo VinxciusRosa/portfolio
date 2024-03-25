@@ -5,8 +5,8 @@
 Projetos
 ----------------------------------------------------- */
 #projetos{
-    margin-top: 10vh;
-    height: 75vh;
+    margin: 10vh 0 ;
+    height: auto;
     background-color: $color-primary;
     text-align: center;
 
@@ -22,11 +22,11 @@ Projetos
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         
         .cards{
             margin-top: 8vh;
-            width: 20vw;
+            width: 80%;
             height: auto;
             border: 1px solid #6610F2;
             background-color: $color-secondary;
@@ -37,13 +37,13 @@ Projetos
                 text-align: justify;
             }
             p{
-                text-align: justify;
+                text-align: left;
                 color: $color-primary-text;
             }
             button{
-                margin:24px 0 0 34px;
+                margin:24px 0 0 0;
                 // margin-left: 22px;
-                width: 70%;
+                width: 100%;
                 height: 6.5vh;
                 background: transparent; 
                 cursor: pointer;

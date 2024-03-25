@@ -11,7 +11,8 @@ import Azure from "./../../assets/img/azure.svg";
 export function Conhecimentos(){
 	return (
 		<div id="conhecimentos">
-			<h1>Conhecimentos<br /><span>&</span> Certificações</h1>
+			{/* <h1>Knowledge<br /><span>&</span> Certificações</h1> */}
+			<h1>Knowledge<br /></h1>
 
 			<div className="conhecimentos-icons">
 				

@@ -8,7 +8,7 @@ Conhecimentos
     flex-wrap: nowrap;
     align-items: center;
     // justify-content: space-between;
-    height: 85vh;
+    height: 60vh;
     background-color: $color-secondary;
     h1{
         width: 60%;
@@ -39,6 +39,7 @@ Conhecimentos
         }
         }    
     }
+
 
     .cards:hover{
         .cards-p{display:flex;
@@ -72,21 +73,6 @@ Conhecimentos
             justify-content:center;
             .cards{
                 margin: 20px ;
-            }
-        }
-    }
-
-}
-
-
-@media screen and (max-width: 376px) {
-    #conhecimentos{
-
-        .conhecimentos-icons{
-            display: flex;
-            justify-content:space-between;
-            .cards{
-                margin: 20px 0;
             }
         }
     }

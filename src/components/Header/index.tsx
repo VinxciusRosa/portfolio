@@ -1,7 +1,8 @@
+import React from "react";
+
 import Logo from "./../../assets/img/logo.svg"
 import { useState } from "react";
 import "./style.scss";
-import { GrLanguage } from "react-icons/gr";
 import { GoogleTranslate } from "./../GoogleTranslate";
 
 export function Header(){
@@ -20,15 +21,14 @@ export function Header(){
 					<img src={Logo} alt="logo-vinicius" /> 
 					</a>
 					<ul>
-						<li> <a href="#sobre-mim">Sobre mim</a> </li>
-						<li> <a href="#projetos">Projetos</a> </li>
-						<li> <a href="#conhecimentos">Conhecimentos</a> </li>
-						<li> <a href="#ciencia">Ciência</a> </li>
-						{/* <li><GoogleTranslate/></li> */}
+						{/* <li> <a href="#" className="active">Home</a> </li> */}
+						{/* <li> <img src={Logo} alt="logo-vinicius" /> </li> */}
+						<li> <a href="#sobre-mim">About me</a> </li>
+						<li> <a href="#projetos">Projects</a> </li>
+						<li> <a href="#conhecimentos">Knowledge</a> </li>
+						<li> <a href="#ciencia">Science</a> </li>
 					</ul>
-					
-						<GoogleTranslate/>
-					
+					<GoogleTranslate/>
 				</nav>
 				
 			</div>

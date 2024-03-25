@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     
     .btn-lang{
         width: 38px;
@@ -27,8 +26,6 @@
 
 .idioma{
     ul{
-        display: flex;
-        flex-direction: row;
         li{
             padding: 0 5px;
         }
