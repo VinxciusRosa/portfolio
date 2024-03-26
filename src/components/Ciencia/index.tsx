@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
 
+
 export function Ciencia(){
 	return (
 		<div id="ciencia">
